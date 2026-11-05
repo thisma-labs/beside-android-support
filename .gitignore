@@ -1,0 +1,23 @@
+# Release binaries (distributed via GitHub Releases, never git tree)
+*.apk
+*.aab
+*.part
+*.tmp
+
+# Secrets, keystores, certificates, and credentials
+*.keystore
+*.jks
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+.env*
+
+# OS and IDE metadata
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

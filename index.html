@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Android Mobile Support — Beside Help Center</title>
+  <meta name="description" content="Dedicated Android 8.0+ customer support for Beside: APK installation, local Wi-Fi multicast permissions, Share Sheet, Gallery auto-scan, and MIUI/HyperOS/One UI battery optimization.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="Beside Support Center Home">
+        <img src="assets/logo.png" alt="Beside Logo" class="brand-logo" width="36" height="36">
+        <div class="brand-title-wrap">
+          <span class="product-name">Beside</span>
+          <span class="support-tag">Mobile Support</span>
+        </div>
+      </a>
+
+      <nav class="site-nav" aria-label="Support Navigation">
+        <a href="index.html" class="nav-link">&larr; Support Home</a>
+        <a href="https://thisma-labs.github.io/beside-windows-support" class="nav-link">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Desktop Support (Windows)
+        </a>
+        <a href="mobile.html" class="nav-link active-mobile" aria-current="page">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          Mobile Support (Android)
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Platform Switcher Bar -->
+      <div class="platform-switcher-bar" aria-label="Support Platform Switcher">
+        <div class="breadcrumb-nav">
+          <a href="index.html">&larr; Back to Support Landing Page</a>
+          <span>/</span>
+          <span style="color: var(--cyan); font-weight: 700;">Android Mobile Support</span>
+        </div>
+        <div class="platform-tabs" role="navigation" aria-label="Switch Support Platform">
+          <a href="index.html" class="platform-tab">All Support</a>
+          <a href="https://thisma-labs.github.io/beside-windows-support" class="platform-tab">&larr; Switch to Desktop (Windows)</a>
+          <a href="mobile.html" class="platform-tab active-mobile" aria-current="page">Mobile (Android)</a>
+        </div>
+      </div>
+
+      <!-- Hero & Live Search -->
+      <section class="support-hero">
+        <div class="support-badge cyan">ANDROID 8.0+ PHONES &amp; TABLETS (arm64-v8a) &bull; v0.1.1</div>
+        <h1 class="support-title">Beside for Android — Mobile Support</h1>
+        <p class="support-subtitle">
+          Signed APK installation, local Wi-Fi multicast permissions, Android Share Sheet &amp; Gallery auto-scan, and background battery optimization for MIUI, HyperOS, One UI, and Pixel.
+        </p>
+        <div class="support-search-wrap">
+          <svg class="support-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input
+            id="mobile-search"
+            type="search"
+            class="support-search-input"
+            placeholder="Search Android mobile support (e.g., APK, permissions, MIUI, battery, hotspot, gallery)..."
+            aria-label="Search Android mobile support"
+            oninput="filterSupport('mobile-search', 'mobile-search-status')"
+          >
+          <div id="mobile-search-status" class="search-status" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <div class="support-layout">
+        <!-- Sticky Sidebar Table of Contents -->
+        <aside class="support-sidebar" aria-label="Mobile Support Sections">
+          <h3>Mobile Categories</h3>
+          <ul class="support-toc">
+            <li><a href="#installation">1. Android Installation &amp; Setup</a></li>
+            <li><a href="#requirements">2. System Requirements</a></li>
+            <li><a href="#permissions">3. Local Network Permissions</a></li>
+            <li><a href="#discovery">4. Discovery &amp; Troubleshooting</a></li>
+            <li><a href="#transfers">5. Sending &amp; Receiving Files</a></li>
+            <li><a href="#pairing-security">6. Pairing &amp; Security</a></li>
+            <li><a href="#battery-background">7. Background &amp; Battery</a></li>
+            <li><a href="#faq">8. Frequently Asked Questions</a></li>
+            <li><a href="#known-issues">9. Known Issues &amp; Solutions</a></li>
+          </ul>
+          <div class="support-sidebar-switch">
+            <div style="font-size: 0.78rem; color: var(--silver); margin-bottom: 0.5rem;">Need Windows PC help?</div>
+            <a href="https://thisma-labs.github.io/beside-windows-support" class="btn btn-secondary btn-sm" style="width: 100%; border-color: rgba(34, 197, 94, 0.4); color: var(--emerald);">
+              Windows Desktop Support &rarr;
+            </a>
+            <a href="index.html" style="display: block; text-align: center; margin-top: 0.65rem; font-size: 0.8rem; color: var(--silver); text-decoration: none;">
+              &larr; Return to Support Landing Page
+            </a>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="support-content">
+          <!-- 1. Android Installation and Setup -->
+          <section id="installation" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">1</span>
+              <h2>Android Installation &amp; Setup</h2>
+            </div>
+            <p>
+              Beside for Android is distributed as an official, cryptographically signed release APK (<code>Beside-v0.1.1-Android-arm64.apk</code>, 32.54 MB) for direct installation on Android phones and tablets.
+            </p>
+            <div style="margin: 1rem 0 1.25rem;">
+              <a href="https://github.com/thisma-labs/beside/releases/download/v0.1.1/Beside-v0.1.1-Android-arm64.apk" class="btn btn-cyan btn-sm">Download Signed APK (v0.1.1)</a>
+            </div>
+            <h3>How to Install &amp; Update the Signed APK</h3>
+            <ol>
+              <li>Download <code>Beside-v0.1.1-Android-arm64.apk</code> on your Android phone or tablet.</li>
+              <li>Tap the downloaded file in your browser's download shelf or in your device's <strong>Files</strong> / <strong>Downloads</strong> manager.</li>
+              <li>If prompted by Android security, toggle on <strong>Allow from this source</strong> (<em>Install unknown apps</em>) for your browser or file manager, then tap <strong>Install</strong> (or <strong>Update</strong>).</li>
+            </ol>
+            <div class="support-callout cyan" style="margin-top: 1rem;">
+              <h4>Seamless In-Place Upgrades &amp; Data Continuity</h4>
+              <p>
+                When updating to a newer Beside version, simply install the new APK over the existing installation. <strong>Do not uninstall the old app.</strong> Because all official Beside releases are signed with our consistent cryptographic release certificate, Android's Package Manager performs an in-place upgrade, preserving your paired devices in TrustStore, private keys in Keystore, transfer history, and Beside Pro activation.
+              </p>
+            </div>
+            <div class="support-callout amber" style="margin-top: 1rem;">
+              <strong>Sideloading Safety &amp; Android Warnings:</strong>
+              Android displays a default warning (<em>"File might be harmful"</em>) for any direct APK download outside the Play Store. You can verify the integrity of our APK using standard checksum tools before opening it.
+            </div>
+            <h3>Verifying APK SHA-256 Checksum</h3>
+            <pre class="support-code">sha256sum Beside-v0.1.1-Android-arm64.apk
+# Expected: 42621793e8426f2391afeda7c2e8ecad01c313c1d2e36001b8b60486bc7754cc</pre>
+          </section>
+
+          <!-- 2. Android System Requirements -->
+          <section id="requirements" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">2</span>
+              <h2>Android System Requirements</h2>
+            </div>
+            <ul>
+              <li><strong>Operating System:</strong> Android 8.0 Oreo (API 26) through Android 16.</li>
+              <li><strong>Processor Architecture:</strong> 64-bit ARM (<code>arm64-v8a</code>).</li>
+              <li><strong>Memory (RAM):</strong> Bounded <strong>64 KB streaming buffer</strong> — transfers multi-gigabyte video files with flat memory usage.</li>
+              <li><strong>Network:</strong> Local Wi-Fi network or Android Mobile Hotspot. No mobile data plan or internet connection is required for file or text transfers.</li>
+            </ul>
+          </section>
+
+          <!-- 3. Local Network Permissions -->
+          <section id="permissions" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">3</span>
+              <h2>Local Network &amp; System Permissions</h2>
+            </div>
+            <p>
+              Beside requests only the minimum Android permissions needed for local peer discovery and file streaming. It <strong>never</strong> requests access to Contacts, Microphone, Camera Roll read-all, or GPS Location:
+            </p>
+            <div class="support-grid-2">
+              <div class="support-mini-card">
+                <h4>Wi-Fi Multicast Lock</h4>
+                <p><code>ACCESS_WIFI_STATE</code> and <code>CHANGE_WIFI_MULTICAST_STATE</code> allow Beside to receive local mDNS peer discovery packets (<code>_beside._tcp.local.</code>) over Wi-Fi.</p>
+              </div>
+              <div class="support-mini-card">
+                <h4>Notifications (Android 13+)</h4>
+                <p><code>POST_NOTIFICATIONS</code> displays incoming transfer approval alerts and live foreground transfer progress.</p>
+              </div>
+              <div class="support-mini-card">
+                <h4>Foreground Transfer Service</h4>
+                <p><code>FOREGROUND_SERVICE</code> and <code>FOREGROUND_SERVICE_DATA_SYNC</code> prevent Android from killing active transfers when you switch apps.</p>
+              </div>
+              <div class="support-mini-card">
+                <h4>Storage Access Framework (SAF)</h4>
+                <p>Files save to <code>Downloads/Beside</code> by default. Beside Pro users can select any custom directory using Android's scoped Storage Access Framework.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 4. Device Discovery and Connection Troubleshooting -->
+          <section id="discovery" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">4</span>
+              <h2>Device Discovery &amp; Connection Troubleshooting</h2>
+            </div>
+            <h3>1. Same Wi-Fi Router or Android Mobile Hotspot</h3>
+            <p>
+              Connect both your Android device and Windows PC to the same Wi-Fi network. If you are on a public Wi-Fi with Client Isolation, turn on your Android phone's <strong>Mobile Hotspot</strong> and connect your PC directly to it.
+            </p>
+            <h3>2. Automatic Cellular Interface Filtering</h3>
+            <p>
+              You do not need to disable 4G/5G mobile data. Beside automatically filters out cellular interfaces (<code>rmnet</code>, <code>ccmni</code>, <code>pdp</code>) so local discovery and TLS transfers bind exclusively to your Wi-Fi or Hotspot interface.
+            </p>
+            <h3>3. Automatic Wi-Fi Reconnection Recovery</h3>
+            <p>
+              When your phone disconnects and reconnects to Wi-Fi, Beside's connectivity monitor automatically refreshes the Wi-Fi <code>MulticastLock</code> and restarts mDNS discovery so your phone reappears on your PC without restarting the app.
+            </p>
+            <h3>4. Connect by IP or QR Code</h3>
+            <p>
+              If multicast is blocked on your router, tap <strong>Connect by IP / QR</strong> to scan the QR code shown on your peer device or enter its <code>IP:port</code> manually.
+            </p>
+          </section>
+
+          <!-- 5. Sending and Receiving Files -->
+          <section id="transfers" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">5</span>
+              <h2>Sending &amp; Receiving Files on Android</h2>
+            </div>
+            <ul>
+              <li><strong>Android System Share Sheet:</strong> Share photos, videos, documents, or text directly from Google Photos, Gallery, Files, or any browser by tapping <strong>Share &rarr; Beside</strong> (<code>ACTION_SEND</code> &amp; <code>ACTION_SEND_MULTIPLE</code>).</li>
+              <li><strong>Default Save Location:</strong> Received files are stored in <code>Internal Storage/Download/Beside</code>.</li>
+              <li><strong>Automatic Gallery Indexing:</strong> Received photos and videos are automatically scanned via <code>MediaScannerConnection.scanFile</code> so they appear immediately in Google Photos and your system Gallery.</li>
+              <li><strong>Collision-Safe Auto-Rename:</strong> Beside never overwrites existing files; duplicate filenames are renamed automatically (e.g., <code>photo (1).jpg</code>).</li>
+            </ul>
+          </section>
+
+          <!-- 6. Device Pairing and Security -->
+          <section id="pairing-security" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">6</span>
+              <h2>Device Pairing &amp; Security</h2>
+            </div>
+            <ul>
+              <li><strong>Mutual TLS 1.3 &amp; Pinned Fingerprints:</strong> Every session uses TLS 1.3 with pinned X.509 SPKI SHA-256 certificate fingerprints.</li>
+              <li><strong>8-Digit SAS Verification Code:</strong> Confirm the 8-digit code matches on both screens during first-time pairing.</li>
+              <li><strong>Android Keystore AES-256-GCM:</strong> Your device's private identity key is encrypted at rest using hardware-backed Android Keystore storage.</li>
+              <li><strong>Auto-Accept (Beside Pro):</strong> Enable Auto-Accept in Settings to receive files from paired devices without manual confirmation prompts.</li>
+            </ul>
+          </section>
+
+          <!-- 7. Background Activity and Battery Optimization -->
+          <section id="battery-background" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">7</span>
+              <h2>Background Activity &amp; Battery Optimization</h2>
+            </div>
+            <p>
+              To keep your Android device discoverable when Beside is in the background or the screen is off, enable <strong>Background Visibility</strong> in Beside Settings and configure your device's battery optimization settings:
+            </p>
+            <div class="support-grid-2">
+              <div class="support-mini-card">
+                <h4>Xiaomi / Redmi / POCO (MIUI &amp; HyperOS)</h4>
+                <p>Open <strong>App info &rarr; Autostart</strong> (enable), then tap <strong>Battery saver &rarr; No restrictions</strong>.</p>
+              </div>
+              <div class="support-mini-card">
+                <h4>Samsung Galaxy (One UI)</h4>
+                <p>Open <strong>App info &rarr; Battery &rarr; Unrestricted</strong>, and remove Beside from <em>Sleeping apps</em> in Device Care.</p>
+              </div>
+              <div class="support-mini-card">
+                <h4>OPPO / OnePlus / Realme (ColorOS)</h4>
+                <p>Open <strong>App info &rarr; Battery usage</strong> and enable <strong>Allow background activity</strong> &amp; <strong>Allow auto-launch</strong>.</p>
+              </div>
+              <div class="support-mini-card">
+                <h4>Google Pixel / Stock Android</h4>
+                <p>Open <strong>App info &rarr; App battery usage</strong> and select <strong>Unrestricted</strong>.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 8. Frequently Asked Questions -->
+          <section id="faq" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">8</span>
+              <h2>Frequently Asked Questions (Mobile)</h2>
+            </div>
+            <div class="faq-item">
+              <h3>Does Beside use mobile data when transferring files?</h3>
+              <p><strong>No.</strong> All transfers happen strictly over your local Wi-Fi or local hotspot connection with zero mobile data consumption.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Can my Free Android phone receive large files from a Beside Pro PC?</h3>
+              <p><strong>Yes.</strong> Receiving from a Pro device is always unrestricted. Furthermore, one Beside Pro license covers up to 3 personal devices across Windows and Android.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Where are received text snippets stored on Android?</h3>
+              <p>Incoming text messages are displayed in-app and in notifications with a one-tap <strong>Copy</strong> action. They are never saved unencrypted to disk.</p>
+            </div>
+          </section>
+
+          <!-- 9. Known Issues and Solutions -->
+          <section id="known-issues" class="support-section searchable-support-block">
+            <div class="support-section-header">
+              <span class="support-section-num cyan">9</span>
+              <h2>Known Issues &amp; Solutions (Mobile)</h2>
+            </div>
+            <div class="faq-item">
+              <h3>Issue: Phone disappears from Windows device list after the screen locks</h3>
+              <p><strong>Solution:</strong> Enable <strong>Background Visibility</strong> in Beside Settings and set Battery Optimization to <strong>Unrestricted / No restrictions</strong> (Section 7).</p>
+            </div>
+            <div class="faq-item">
+              <h3>Issue: "App not installed as package conflicts with an existing package"</h3>
+              <p><strong>Solution:</strong> Uninstall any older debug/test build first, then install the official signed release APK.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Issue: Custom Save Folder permission lost after Android OS update</h3>
+              <p><strong>Solution:</strong> Open <strong>Settings &rarr; Save Location</strong> in Beside and re-select your preferred folder via the Android folder picker.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Beside by Thisma Labs</h4>
+          <p style="max-width: 280px; font-size: 0.85rem; line-height: 1.55;">
+            Local-first, ultra-fast file, folder, and text sharing between Windows and Android. Mutual TLS 1.3 encryption, zero cloud, zero accounts.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Support Pages</h4>
+          <ul>
+            <li><a href="index.html">Support Landing Page</a></li>
+            <li><a href="https://thisma-labs.github.io/beside-windows-support">Desktop Support (Windows)</a></li>
+            <li><a href="mobile.html">Mobile Support (Android)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Documentation &amp; Legal</h4>
+          <ul>
+            <li><a href="README.md">Release Overview</a></li>
+            <li><a href="CHANGELOG.md">Changelog</a></li>
+            <li><a href="SECURITY.md">Security Policy</a></li>
+            <li><a href="https://beside-license-worker.khthisald.workers.dev/legal/privacy">Privacy Policy (Draft)</a></li>
+            <li><a href="https://beside-license-worker.khthisald.workers.dev/legal/terms">Terms of Service (Draft)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Official Links</h4>
+          <ul>
+            <li><a href="https://beside-license-worker.khthisald.workers.dev" target="_blank" rel="noopener noreferrer">Official Website</a></li>
+            <li><a href="https://beside-license-worker.khthisald.workers.dev/devices" target="_blank" rel="noopener noreferrer">Pro Device Manager</a></li>
+            <li><a href="https://github.com/thisma-labs/beside/issues" target="_blank" rel="noopener noreferrer">GitHub Issue Tracker</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Thisma Labs. All rights reserved. Beside (&bull;&mdash;&#9678;) is a trademark of Thisma Labs.</div>
+        <div>Local-first &bull; Zero Telemetry &bull; Mutual TLS 1.3</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function filterSupport(inputId, statusId) {
+      var input = document.getElementById(inputId);
+      var status = document.getElementById(statusId);
+      if (!input) return;
+      var q = (input.value || '').trim().toLowerCase();
+      var blocks = document.querySelectorAll('.searchable-support-block');
+      var count = 0;
+      for (var i = 0; i < blocks.length; i++) {
+        var el = blocks[i];
+        var txt = (el.textContent || '').toLowerCase();
+        if (!q || txt.indexOf(q) !== -1) {
+          el.style.display = '';
+          count++;
+        } else {
+          el.style.display = 'none';
+        }
+      }
+      if (status) {
+        status.textContent = !q ? '' : (count === 0 ? 'No matching sections found.' : 'Showing ' + count + ' matching section' + (count === 1 ? '' : 's') + '.');
+      }
+    }
+  </script>
+</body>
+</html>
