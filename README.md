@@ -1,16 +1,12 @@
-# Beside for Android — Customer Support & Release Distribution
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/beside-duo-hero.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/beside-duo-hero-light.png">
-    <img src="assets/beside-duo-hero.png" alt="Beside Android Mobile Application running on Smartphone alongside Windows Laptop" width="850">
-  </picture>
+  <img src="assets/logo.png" alt="Beside Logo" width="88" height="88">
 </p>
 
+<h1 align="center">Beside for Android</h1>
+
 <p align="center">
-  <strong>Fast. Private. Together. — Send it. It's there.</strong><br>
-  <em>Direct local-first peer-to-peer file, folder, and text sharing between Android and Windows over Wi-Fi.<br>Mutual TLS 1.3, zero cloud, zero accounts, bounded memory.</em>
+  <strong>Fast Private Together</strong><br>
+  <em>Send it. It's there. — Direct local-first peer-to-peer file, folder, and text sharing between Android and Windows over Wi-Fi.<br>Mutual TLS 1.3, zero cloud, zero accounts, flat 64 KB RAM bounded streaming.</em>
 </p>
 
 <p align="center">
@@ -22,26 +18,19 @@
   <img src="https://img.shields.io/badge/Security-mTLS%201.3%20%2B%20Keystore-22C55E?style=flat-square" alt="Security">
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/phone-hero-opt.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/phone-hero-light-opt.png">
+    <img src="assets/phone-hero-opt.png" alt="Beside Android Mobile Application running on Smartphone" width="360">
+  </picture>
+</p>
+
 ---
 
 ## Overview
 
 **Beside for Android** is a dedicated, mobile-first sharing application designed for Android smartphones and tablets (Android 8.0 Oreo through Android 14). Engineered with a reactive Flutter mobile interface and a compiled native Rust core (`librust_bridge.so` built for `arm64-v8a`), Beside streams files, full directory trees, and text snippets directly across your local Wi-Fi network at wire speed with zero intermediate cloud relays.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/phone-hero-opt.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/phone-hero-light-opt.png">
-    <img src="assets/phone-hero-opt.png" alt="Beside Android Mobile Application running on Smartphone" width="340">
-  </picture>
-</p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/01-1-home-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/01-1-home-light.png">
-    <img src="assets/screenshots/01-1-home-dark.png" alt="Beside Android 4-Tab Mobile Interface" width="340">
-  </picture>
-</p>
 
 ### The 4-Tab Mobile Navigation
 
