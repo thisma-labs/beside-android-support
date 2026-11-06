@@ -1,7 +1,11 @@
 # Beside for Android — Customer Support & Release Distribution
 
 <p align="center">
-  <img src="assets/beside-duo-hero.png" alt="Beside Android Mobile Application running on Smartphone alongside Windows Laptop" width="850">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/beside-duo-hero.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/beside-duo-hero-light.png">
+    <img src="assets/beside-duo-hero.png" alt="Beside Android Mobile Application running on Smartphone alongside Windows Laptop" width="850">
+  </picture>
 </p>
 
 <p align="center">
@@ -25,10 +29,18 @@
 **Beside for Android** is a dedicated, mobile-first sharing application designed for Android smartphones and tablets (Android 8.0 Oreo through Android 14). Engineered with a reactive Flutter mobile interface and a compiled native Rust core (`librust_bridge.so` built for `arm64-v8a`), Beside streams files, full directory trees, and text snippets directly across your local Wi-Fi network at wire speed with zero intermediate cloud relays.
 
 <p align="center">
-  <img src="assets/phone-hero-opt.png" alt="Beside Android Mobile Application running on Smartphone" width="340">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/phone-hero-opt.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/phone-hero-light-opt.png">
+    <img src="assets/phone-hero-opt.png" alt="Beside Android Mobile Application running on Smartphone" width="340">
+  </picture>
 </p>
 <p align="center">
-  <img src="assets/screenshots/01-1-home-dark.png" alt="Beside Android 4-Tab Mobile Interface" width="340">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/01-1-home-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/01-1-home-light.png">
+    <img src="assets/screenshots/01-1-home-dark.png" alt="Beside Android 4-Tab Mobile Interface" width="340">
+  </picture>
 </p>
 
 ### The 4-Tab Mobile Navigation
