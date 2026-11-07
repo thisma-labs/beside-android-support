@@ -6,7 +6,7 @@
   "buildNumber": 11,
   "versionCode": 11,
   "coreVersion": "0.2.0",
-  "releaseDate": "2026-11-01",
+  "releaseDate": "2026-11-07",
   "minSupportedVersion": "0.1.0",
   "mandatory": false,
   "releaseNotesUrl": "https://github.com/thisma-labs/beside-android-support/releases/tag/android-v0.2.0",
@@ -16,9 +16,9 @@
       "kind": "apk",
       "filename": "Beside-v0.2.0-Android-arm64.apk",
       "url": "https://github.com/thisma-labs/beside-android-support/releases/download/android-v0.2.0/Beside-v0.2.0-Android-arm64.apk",
-      "sizeBytes": 34717188,
-      "sizeDisplay": "33.11 MB",
-      "sha256": "54971744bbfc6f72cbb0e3306733e60d0efa1c2be152eb1a30ae1af06e6d0062",
+      "sizeBytes": 34914268,
+      "sizeDisplay": "33.30 MB",
+      "sha256": "fda08020c3ee9015c4a0460fc6e091c8ab04d62d233b24fe99face05ef35b9ef",
       "arch": "arm64-v8a"
     }
   },
