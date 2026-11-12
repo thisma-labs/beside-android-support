@@ -66,6 +66,8 @@ Beside utilizes Android's most powerful native system services for seamless shar
 | **Batch Transfers & Folders** | 1 File per transfer | **Unlimited** files & full directory trees |
 | **Direct LAN Text Messaging** | Up to 40 characters | **Full-length** messages up to 1 MB |
 | **Paired Peers in TrustStore** | 1 Paired Peer | **Unlimited** Pinned Peers |
+| **Simultaneous Multi-Device Sharing** | 1 recipient at a time | **Simultaneous multi-device fanout** |
+| **Device Groups** | 0 Groups | **Unlimited** custom device groups |
 | **Zero-Click Auto-Accept** | Disabled | **Enabled** (Opt-in toggle for trusted peers) |
 | **Receiving from Pro Senders** | **Unlimited & Free Forever** | **Unlimited & Free Forever** |
 | **Android System Integrations** | **Full Access Included** | **Full Access Included** |
