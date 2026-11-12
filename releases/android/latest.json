@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "platform": "android",
   "channel": "stable",
-  "version": "0.3.1",
-  "buildNumber": 14,
-  "versionCode": 14,
+  "version": "0.3.0",
+  "buildNumber": 13,
+  "versionCode": 13,
   "coreVersion": "0.3.0",
   "releaseDate": "2026-11-12",
   "minSupportedVersion": "0.1.0",
@@ -22,5 +22,5 @@
       "arch": "arm64-v8a"
     }
   },
-  "signature": "PUqkpu0D52DNi38kxfK6NtMrWBGWVjfHxn+Vql0Rhn3SebqxDwJcoeqXEw6mmqTNxa3e2k+SltLtOcvrVMcYDQ=="
+  "signature": "hdZvCxlQyGOlpAsbVqP1+qkKmB6yYznRlphQq+D5atGCa0kE4XuQETN1APHoGmKtRHoSuHZS67Y2oDujsaRmCQ=="
 }
