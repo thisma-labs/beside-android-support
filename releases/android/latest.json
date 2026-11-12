@@ -16,11 +16,11 @@
       "kind": "apk",
       "filename": "Beside-v0.3.0-Android-arm64.apk",
       "url": "https://github.com/thisma-labs/beside-android-support/releases/download/v0.3.0/Beside-v0.3.0-Android-arm64.apk",
-      "sizeBytes": 29134364,
-      "sizeDisplay": "27.78 MB",
-      "sha256": "c4caf733ec9f407ab45e79b3aa34d5ad524471b93ed4c1654fb6c49725dbeae8",
+      "sizeBytes": 29265436,
+      "sizeDisplay": "27.91 MB",
+      "sha256": "4c8f371fe51afdaca3ad43b36ddbf1f58095ca083e2efe1fb269853b81fd0d84",
       "arch": "arm64-v8a"
     }
   },
-  "signature": "mqZ2ndkHAGAliZSdhvulLkJt3wqHCDCg9XJcb9c/u66VtEk7akY/UXxels+aJqHuZfHKvlV9T4Ty5gmt7vGiAA=="
+  "signature": "hdZvCxlQyGOlpAsbVqP1+qkKmB6yYznRlphQq+D5atGCa0kE4XuQETN1APHoGmKtRHoSuHZS67Y2oDujsaRmCQ=="
 }
