@@ -11,9 +11,9 @@
 
 <p align="center">
   <a href="https://beside-license-worker.khthisald.workers.dev"><img src="https://img.shields.io/badge/Website-beside.app-22C55E?style=flat-square" alt="Website"></a>
-  <a href="https://thisma-labs.github.io/beside-android-support"><img src="https://img.shields.io/badge/Docs-Android%20Support-3DDC84?style=flat-square" alt="Support Docs"></a>
+  <a href="https://github.com/thisma-labs/beside-android-support/issues"><img src="https://img.shields.io/badge/Support-Issues%20%26%20Help-3DDC84?style=flat-square" alt="Support Issues"></a>
   <a href="https://github.com/thisma-labs/beside-windows-support"><img src="https://img.shields.io/badge/Windows%20Portal-GitHub-00A4EF?style=flat-square" alt="Windows Portal"></a>
-  <a href="https://github.com/thisma-labs/beside/releases/latest"><img src="https://img.shields.io/badge/Release-v0.1.1-blue?style=flat-square" alt="Latest Release"></a>
+  <a href="https://github.com/thisma-labs/beside-android-support/releases/latest"><img src="https://img.shields.io/badge/Release-v0.3.0-blue?style=flat-square" alt="Latest Release"></a>
   <img src="https://img.shields.io/badge/Platform-Android%208.0%2B%20(arm64--v8a)-3DDC84?style=flat-square" alt="Android arm64">
   <img src="https://img.shields.io/badge/Security-mTLS%201.3%20%2B%20Keystore-22C55E?style=flat-square" alt="Security">
 </p>
@@ -72,17 +72,17 @@ Beside utilizes Android's most powerful native system services for seamless shar
 
 ---
 
-## Downloads & Verification (Android v0.1.1)
+## Downloads & Verification (Android v0.3.0)
 
 | Package | Format | Architecture | Size | Checksum (SHA-256) | Download |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Signed Release APK** | `.apk` | `arm64-v8a` | 33.11 MB | `54971744bbfc6f72cbb0e3306733e60d0efa1c2be152eb1a30ae1af06e6d0062` | [**Download Beside-v0.1.1-Android-arm64.apk**](https://github.com/thisma-labs/beside/releases/download/v0.1.1/Beside-v0.1.1-Android-arm64.apk) |
+| **Signed Release APK** | `.apk` | `arm64-v8a` | 27.78 MB | `c4caf733ec9f407ab45e79b3aa34d5ad524471b93ed4c1654fb6c49725dbeae8` | [**Download Beside-v0.3.0-Android-arm64.apk**](https://github.com/thisma-labs/beside-android-support/releases/download/android-v0.3.0/Beside-v0.3.0-Android-arm64.apk) |
 
 ### Verifying Checksums in Terminal
 
 ```bash
-sha256sum Beside-v0.1.1-Android-arm64.apk
-# Expected: 54971744bbfc6f72cbb0e3306733e60d0efa1c2be152eb1a30ae1af06e6d0062
+sha256sum Beside-v0.3.0-Android-arm64.apk
+# Expected: c4caf733ec9f407ab45e79b3aa34d5ad524471b93ed4c1654fb6c49725dbeae8
 ```
 
 ### In-Place Upgrade & Cryptographic Signature Guarantee
@@ -112,9 +112,9 @@ On devices running aggressive battery managers (Xiaomi MIUI / HyperOS, Samsung O
 ## Official Storefronts & Links
 
 - **Official Website**: [https://beside-license-worker.khthisald.workers.dev](https://beside-license-worker.khthisald.workers.dev)
-- **Android Support Portal**: [https://thisma-labs.github.io/beside-android-support](https://thisma-labs.github.io/beside-android-support)
-- **Windows Support Portal**: [https://thisma-labs.github.io/beside-windows-support](https://thisma-labs.github.io/beside-windows-support)
+- **Android Issues & Help**: [https://github.com/thisma-labs/beside-android-support/issues](https://github.com/thisma-labs/beside-android-support/issues)
+- **Windows Support Portal**: [https://github.com/thisma-labs/beside-windows-support](https://github.com/thisma-labs/beside-windows-support)
 - **Buy Beside Pro Lifetime**: [https://thismalabs.gumroad.com/l/beside-pro](https://thismalabs.gumroad.com/l/beside-pro)
 - **itch.io Community**: [https://thisma-labs.itch.io/beside](https://thisma-labs.itch.io/beside)
-- **SourceForge Mirror**: [https://sourceforge.net/projects/beside-app](https://sourceforge.net/projects/beside-app)
-- **GitHub Issues**: [https://github.com/thisma-labs/beside/issues](https://github.com/thisma-labs/beside/issues)
+- **SourceForge Mirror**: [https://sourceforge.net/projects/beside-android](https://sourceforge.net/projects/beside-android)
+- **GitHub Issues**: [https://github.com/thisma-labs/beside-android-support/issues](https://github.com/thisma-labs/beside-android-support/issues)

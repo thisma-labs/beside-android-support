@@ -11,7 +11,7 @@ Beside is designed from the ground up for strict local-network privacy and crypt
 ### 1. Transport Layer Security (Mutual TLS 1.3 Only)
 - Beside enforces **TLS 1.3 exclusively** using the audited, memory-safe Rust library `rustls` with the `ring` cryptographic provider.
 - Insecure ciphers, SSL 3.0, TLS 1.0, 1.1, and 1.2 are rejected.
-- Connections enforce **Mutual TLS**: both sender and receiver present self-signed X.509 device certificates. Certificates are bound to ephemeral or hardware-protected device keypairs and validated against pinned SHA-256 Subject Public Key Info (SPKI) fingerprints in the local `TrustStore`.
+- Connections enforce **Mutual TLS**: both sender and receiver present self-signed X.509 device certificates. Certificates are bound to ephemeral or hardware-protected device keypairs and validated against pinned SHA-256 Subject Public Key Info (SPKI) fingerprints in the local `TrustStore` (protected by operating system app sandbox permissions).
 
 ### 2. 8-Digit Short Authentication String (SAS)
 - Pairing derives an 8-digit verification code using the **RFC 8446 / RFC 5705 TLS Keying Material Exporter**:
@@ -20,8 +20,9 @@ Beside is designed from the ground up for strict local-network privacy and crypt
   - Enforces a 60-second single-attempt pairing window with commitment exchanges to prevent Man-in-the-Middle (MITM) attacks on untrusted Wi-Fi networks.
 
 ### 3. Key Storage at Rest
-- **Windows**: Identity keys are encrypted using the Windows Data Protection API (**Windows DPAPI**).
-- **Android**: Identity keys are encrypted using hardware-backed **Android Keystore AES-256-GCM**.
+- **Windows**: Identity keys are encrypted using the Windows Data Protection API (**Windows DPAPI**, `device_key.enc`).
+- **Android**: Identity keys are encrypted using hardware-backed **Android Keystore AES-256-GCM** (`device_key.enc`).
+- **TrustStore**: The trust list (`trust_store.json`) stores pinned peer fingerprints in plain JSON, protected by OS-level file permissions and app sandboxing.
 
 ### 4. Transfer Protocol & Memory Bounds
 - All file chunks are streamed in **bounded 64 KB buffers** to prevent memory exhaustion / DoS attacks.

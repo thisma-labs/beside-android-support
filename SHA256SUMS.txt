@@ -1,1 +1,1 @@
-8867cc2d82309f42cfdad3b1779114dd64b1be5bac59e8549a0d163199858c06  Beside-v0.2.0-Android-arm64.apk
+c4caf733ec9f407ab45e79b3aa34d5ad524471b93ed4c1654fb6c49725dbeae8  Beside-v0.3.0-Android-arm64.apk
